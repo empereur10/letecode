@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#040124;
+    height: 50px;
+    padding: 0 90px;
+}
+.navgauche{
+    display: flex;
+    align-items: center;
+}
+.navgauche p{
+    margin: 0 20px;
+}
+.logo{
+    width: 50px;
+}
+
+.navdroite{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+
+.liennav, a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+.ligne{
+    background-color: #fff;
+    height: 2px;
+}
+section{
+    padding: 0 90px 0 140px;
+}
+section div p{
+    font-weight: 500;
+    margin: 20px 0;
+}
+section div h1{
+    margin: 20px 0;
+}
+form{
+    margin:20px 2px;
+    
+}
+form div{
+    display: flex;
+}
+form div div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 15px;
+}
+label{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+input,select{
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #d8d8d8;
+    border: none;
+}
+.form_right{
+    margin-right: 150px;
+}
+textarea{
+    margin-right: 20px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: #d8d8d8;
+    border: none;
+}
+.message{
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.abbonez{
+    height: 300px;
+    padding: 0 90px 0 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #eeeeee;
+}
+.abbonez_droite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150%;
+    margin: 80px;
+}
+.abbonez_gauche{
+    margin-right: 30px;
+}
+.mail{
+    background-color: #d8d8d8;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 400px;
+    height: 70px;
+    color: #000;
+    border-radius: 10px;
+}
+.submit{
+    background-color: #d72385;
+    height: 50px;
+    width: 400px;
+    margin: 40px 0;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+.abonnement{
+    background-color: #d72385;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px 0;
+    height: 50px;
+    border-radius: 10px;
+}
+footer{
+    background-color:#0f2243;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+}
+.active:active{
+    color: blue;
+}
+.active:visited{
+    text-decoration: underline;
+}

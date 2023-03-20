@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#040124;
+    height: 50px;
+    padding: 0 90px;
+}
+.navgauche{
+    display: flex;
+    align-items: center;
+}
+.navgauche p{
+    margin: 0 20px;
+}
+.logo{
+    width: 50px;
+}
+
+.navdroite{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+
+.liennav, a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+.ligne{
+    background-color: #fff;
+    height: 2px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.pentete{
+    font-size: 1.4em;
+    text-align: center;
+}
+.btnentete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    background-color: #d72385;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+.conteneur{
+    height: 300px;
+    padding: 0 90px 0 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #eeeeee;
+}
+.conteneur img{
+    width: 400px;
+}
+.conteneur div{
+    margin-left: 105px;
+    
+}
+.conteneur div h1{
+    font-size: 2.3em;
+    margin-bottom: 25px;
+}
+.propos{
+    padding: 25px 150px;
+    text-align: justify;
+}
+.propos p{
+    text-align: justify;
+    margin: 30px 10px;
+}
+.important{
+    font-weight: bold;
+}
+.propos span{
+    display: flex;
+    align-items: center;
+}
+.propos ul{
+    padding: 0px
+}
+footer{
+    background-color:#0f2243;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+}
