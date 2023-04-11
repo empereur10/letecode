@@ -1,78 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bienvenue.css">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>letecode</title>
-</head>
-<body>
-    <nav>
-        <div class="navgauche">
-            <img class="logo"src="images/letecode.png" alt="">
-            <a>letecode</a>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        </div>
-        <ul class="navdroite">
-            <li><a class="liennav" href="index.html">Acceuil</a><div class="ligne"></div></li>
-            <li><a class="liennav" href="communaute.html">Communauté</a></li>
-            <li><a class="liennav" href="cours.html">Cours</a></li>
-            <li><a class="liennav" href="contact.html">Contact</a></li>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Accueil Letecode</title>
+    <meta name="description" content="Letecode">
+    <meta property="og:title" content="Accueil| Letecode">
+    <meta property="og:description" content="Letecode est une Communauté">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://empereur10.github.io/letecode/images/letecode.png">
+    <meta property="og:url" content="https://empereur10.github.io/letecode">
+
+</head>
+
+<body>
+    <div class="drawer container">
+        
+        <ul class="">
+            <li class="menu-item ">
+                <a href="index.html" class="allumer">Acceuil</a>
+            </li>
+            <li class="menu-item">
+                <a href="communaute.html">Communauté</a>
+            </li>
+            <li class="menu-item">
+                <a href="cours.html">Cours</a>
+            </li>
+            <li class="menu-item">
+                <a href="contact.html">Contact</a>
+            </li>
         </ul>
+    </div>
+    <nav class=" nav-bar">
+        <div class="container ">
+            <a class="branding" href="">
+                <img src="images/letecode.png" alt="">
+                <span>letecode</span>
+            </a>
+            <button class="navigation-resp hamurger" id="" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                    />
+                </svg>
+            </button>
+            <ul class="menu">
+                <li class="menu-item active">
+                    <a href="index.html">Acceuil</a>
+                </li>
+                <li class="menu-item">
+                    <a href="communaute.html">Communauté</a>
+                </li>
+                <li class="menu-item">
+                    <a href="cours.html">Cours</a>
+                </li>
+                <li class="menu-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    <header>
-        <div>
+    <header class="section">
+        <div class="container">
             <h1>Bienvenue sur notre site</h1>
-            <p class="pentete">Nous vous apprenons à changer le monde avec votre créativité</p>
-            <a class="btnentete" href="contact.html">Nous contactet</a>
+            <p>Nous vous apprenons à changer le monde avec votre créativité</p>
+            <a class="btn" href="contact.html">Nous contactet</a>
         </div>
     </header>
-    <section class="conteneur">
-        <img src="images/letecode.png" alt="">
-        <div>
-            <h1>
-                vous avez droit d'apprendre
-            </h1>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt sequi laudantium deleniti
-                ullam aspernatur exercitationem, culpa omnis temporibus maxime, nisi quas non, soluta accusantium porro
-                 provident est sunt ducimus! Ducimus?
-            </p>
+    <section class="section learn">
+        <div class="container">
+            <div class="bloc-item al-center">
+                <img src="images/letecode.png" alt="">
+            </div>
+            <div class="bloc-item">
+                <h2 class="mar-b-10">
+                    vous avez droit d'apprendre
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, quisquam ad. Beatae debitis, fugiat
+                    enim ut quam hic. Officia ad mollitia quasi cupiditate voluptatibus minus incidunt assumenda illo fugit
+                    eveniet.
+                </p>
+            </div>
         </div>
-        <div></div>
     </section>
-    <section class="propos">
-        <h1>A propos de nous</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sequi repudiandae!
-            Minus id officia dolore numquam sunt quasi, impedit ratione, saepe quibusdam qui, quo molestias? Tempore
-            <span class="important"> corporis</span> in quibusdam atque.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis autem ipsam nulla molestiae quidem odit cum
-            aperiam itaque architecto eaque voluptatem non soluta voluptatibus, veniam, asperiores eos tenetur, beatae
-            repudiandae?
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quibusdam accusamus distinctio doloremque.
-            Quo tenetur eum soluta maiores, aliquid accusantium ipsam omnis, culpa quaerat perferendis provident
-            similique totam, ab dicta? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis earum
-            deleniti exercitationem obcaecati ullam molestias iste maxime ducimus cupiditate quidem. Facilis nobis
-            illum illo quia doloribus similique molestias expedita quos!
-        </p>
-        <span><h2>les option</h2>:</span>
-        <ul>
-            <li>-Git et Github</li>
-            <li>-Html5</li>
-            <li>-CSS</li>
-            <li>-JavaScript</li>
-        </ul>
+    <section class="section">
+        <div class="container">
+            <h2 class="mar-b-10">A propos de nous</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem vero quibusdam fugit accusamus? Ipsam
+                in provident, maxime, perspiciatis deleniti inventore ipsum esse veniam eum ab vero sed dolores corporis.
+                Ex.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi architecto veniam omnis quo maiores magnam
+                in veritatis vero. Alias, optio ratione! Voluptate, laudantium libero in doloremque quasi earum vitae sequi.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quibusdam! Voluptate tempore eius, velit
+                nostrum ratione dicta deserunt. Nemo obcaecati omnis asperiores nulla assumenda minima porro id explicabo
+                est illo!</p>
+            <h3>Les option</h3>
+            <ul class="typescour">
+                <li>Git et Github</li>
+                <li>Html5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+
     </section>
     <footer>
-        <a>
-            Dévellopé par letecode @2023
-        </a>
+        <div class="container">
+            <p>Dévelloppé par Letecode &copy;2023 </p>
+        </div>
     </footer>
+    <script src="style.js"></script>
+    <script>
+    </script>
 </body>
+
 </html>

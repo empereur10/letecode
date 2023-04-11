@@ -1,83 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css">
-    <title>cours</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact | Letecode</title>
+    <meta name="description" content="Letecode">
+    <meta property="og:title" content="Contact| Letecode">
+    <meta property="og:description" content="Letecode est une Communauté">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://empereur10.github.io/letecode/images/letecode.png">
+    <meta property="og:url" content="https://empereur10.github.io/letecode">
+
 </head>
+
 <body>
-    <nav>
-        <div class="navgauche">
-            <img class="logo"src="images/letecode.png" alt="">
-            <a>letecode</a>
-        </div>
-        <ul class="navdroite">
-            <li><a class="liennav" href="index.html">Acceuil</a></li>
-            <li><a class="liennav" href="communaute.html">Communauté</a></li>
-            <li><a class="liennav" href="cours.html">Cours</a></li>
-            <li><a class="liennav active" href="contact.html">Contact</a><div class="ligne"></div></li>
+    <div class="drawer container">
+        
+        <ul class="">
+            <li class="menu-item ">
+                <a href="index.html" >Acceuil</a>
+            </li>
+            <li class="menu-item">
+                <a href="communaute.html">Communauté</a>
+            </li>
+            <li class="menu-item">
+                <a href="cours.html">Cours</a>
+            </li>
+            <li class="menu-item">
+                <a href="contact.html" class="allumer">Contact</a>
+            </li>
         </ul>
+    </div>
+    <nav class=" nav-bar">
+        <div class="container ">
+            <a class="branding" href="">
+                <img src="images/letecode.png" alt="">
+                <span>letecode</span>
+            </a>
+            <button class="navigation-resp hamurger" id="" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                    />
+                </svg>
+            </button>
+            <ul class="menu">
+                <li class="menu-item active">
+                    <a href="index.html">Acceuil</a>
+                </li>
+                <li class="menu-item">
+                    <a href="communaute.html">Communauté</a>
+                </li>
+                <li class="menu-item">
+                    <a href="cours.html">Cours</a>
+                </li>
+                <li class="menu-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <section>
-        <div>
-            <h1>Nous contactez</h1>
-            <p>Remplissez ce formulaire pour nous laisser un message</p>
+        <div class="container">
+            <div>
+                <h1 class="mar-t-20">Nous contactez</h1>
+                <p>Remplissez ce formulaire pour nous laisser un message</p>
+            </div>
+            <form action="">
+                <div>
+                    <div class="form_right">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="" id="nom">
+                    </div>
+                    <div>
+                        <label for="pays">Pays</label>
+                        <select name="" id="pays">
+                            <option value="Congo">Congo</option>
+                            <option value="Angola">Angola</option>
+                            <option value="Mali">Mali</option>
+                            <option value="Burkinafaso">Burkinafaso</option>
+                            <option value="Zambie">Zambie</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="form_right">
+                        <label for="email">Adresse e-mail</label>
+                        <input type="email" name="" id="email">
+                    </div>
+                    <div>
+                        <label for="Objectif">Objectif</label>
+                        <input type="text" name="" id="Objectif">
+                    </div>
+                </div>
+                <div class="message">
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div><button class="btn mar-t-20" type="submit">Envoyer votre message</button></div>
+            </form>
         </div>
-        <form action="">
-            <div>
-                <div class="form_right">
-                    <label for="nom">Nom</label>
-                    <input type="text" name="" id="nom">
-                </div>
-                <div>
-                    <label for="pays">Pays</label>
-                    <select name="" id="pays">
-                        <option value="Congo">Congo</option>
-                        <option value="Angola">Angola</option>
-                        <option value="Mali">Mali</option>
-                        <option value="Burkinafaso">Burkinafaso</option>
-                        <option value="Zambie">Zambie</option>
-                    </select>
-                </div>
-            </div>
-            <div>
-                <div class="form_right">
-                    <label  for="email">Adresse e-mail</label>
-                    <input type="email" name="" id="email">
-                </div>
-                <div>
-                    <label for="Objectif">Objectif</label>
-                    <input type="text" name="" id="Objectif">
-                </div>
-            </div>
-            <div class="message">
-                <label for="message">Message</label>
-                <textarea name="" id="message" cols="30" rows="10"></textarea>
-            </div>
-            <div><button class="submit" type="submit">Envoyer votre message</button></div>
-        </form>
     </section>
-    <section class="abbonez">
-        <div class="abbonez_gauche">
-            <h1>Abonnez vous à la boite aux lettres</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quibusdam, aliquam quo eveniet ad,
-                aspernatur odit ipsam, velit libero repellendus architecto nemo. Cum odio blanditiis laudantium
-                accusantium at et dolor? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi vero
-                accusantium exercitationem, rem non nemo rerum velit sit dolorem dolore porro unde incidunt
-                enim ullam repellendus doloribus. Tempora, reiciendis deserunt.
-            </p>
-        </div>
-        <div class="abbonez_droite">
-            <p class="mail" href="mailto:">Adresse email</p>
-            <a href="" class="abonnement">s'abonner</a>
+    <section class="back-color">
+        <div class="container abbonez">
+            <div class="abbonez_gauche with mar-r-50">
+                <h1>Abonnez vous à la boite aux lettres</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quibusdam, aliquam quo eveniet ad,
+                    aspernatur odit ipsam, velit libero repellendus architecto nemo. Cum odio blanditiis laudantium accusantium
+                    at et dolor? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi vero accusantium exercitationem,
+                    rem non nemo rerum velit sit dolorem dolore porro unde incidunt enim ullam repellendus doloribus. Tempora,
+                    reiciendis deserunt.
+                </p>
+            </div>
+            <div class="abbonez_droite with mar-l-50">
+                <p class="mail" href="mailto:">Adresse email</p>
+                <a href="" class="btn ">s'abonner</a>
+            </div>
         </div>
     </section>
     <footer>
-        <a>
-            Dévellopé par letecode @ 2023
-        </a>
+        <div class="container">
+            <p>Dévelloppé par Letecode &copy;2023 </p>
+        </div>
     </footer>
+    <script src="style.js"></script>
 </body>
+
 </html>

@@ -1,81 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/cours.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>cours</title>
+    <title>Cours | Letecode</title>
+    <meta name="description" content="Letecode">
+    <meta property="og:title" content="Cours| Letecode">
+    <meta property="og:description" content="Letecode est une Communauté">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://empereur10.github.io/letecode/images/letecode.png">
+    <meta property="og:url" content="https://empereur10.github.io/letecode">
 </head>
+
 <body>
-    <nav>
-        <div class="navgauche">
-            <img class="logo"src="images/letecode.png" alt="">
-            <a>letecode</a>
-        </div>
-        <ul class="navdroite">
-            <li><a class="liennav" href="index.html">Acceuil</a> </li>
-            <li><a class="liennav" href="communaute.html">Communauté</a></li>
-            <li><a class="liennav" href="cours.html">Cours</a><div class="ligne"></div></li>
-            <li><a class="liennav" href="contact.html">Contact</a></li>
+    <div class="drawer container">
+        
+        <ul class="">
+            <li class="menu-item ">
+                <a href="index.html" >Acceuil</a>
+            </li>
+            <li class="menu-item">
+                <a href="communaute.html" >Communauté</a>
+            </li>
+            <li class="menu-item">
+                <a href="cours.html" class="allumer">Cours</a>
+            </li>
+            <li class="menu-item">
+                <a href="contact.html">Contact</a>
+            </li>
         </ul>
+    </div>
+    <nav class=" nav-bar">
+        <div class="container ">
+            <a class="branding" href="">
+                <img src="images/letecode.png" alt="">
+                <span>letecode</span>
+            </a>
+            <button class="navigation-resp hamurger" id="" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                    />
+                </svg>
+            </button>
+            <ul class="menu">
+                <li class="menu-item active">
+                    <a href="index.html">Acceuil</a>
+                </li>
+                <li class="menu-item">
+                    <a href="communaute.html">Communauté</a>
+                </li>
+                <li class="menu-item">
+                    <a href="cours.html">Cours</a>
+                </li>
+                <li class="menu-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <section>
-        <h1>Les cours</h1>
-        <div class="cours">
-            <a href="">
-                <img class="img_cours" src="images/git.png" alt="">
-                <p class="theme">Git et GitHub</p>
-                <p class="time">5 heures</p>
-            </a>
-            <a href="">
-                <img class="img_cours" src="images/html.png" alt="">
-                <p class="theme">HTML</p>
-                <p class="time">5 heures</p>
-            </a>
-            <a href="">
-                <img class="img_cours" src="images/css.png" alt="">
-                <p class="theme">CSS3</p>
-                <p class="time">5 heures</p>
-            </a>
+        <div class="container">
+            <h1 class="mar-t-20">Les cours</h1>
+            <div class="cours">
+                <a href="">
+                    <img class="img_cours" src="images/git.png" alt="">
+                    <p class="theme">Git et GitHub</p>
+                    <p class="time">5 heures</p>
+                </a>
+                <a href="">
+                    <img class="img_cours" src="images/html.png" alt="">
+                    <p class="theme">HTML</p>
+                    <p class="time">5 heures</p>
+                </a>
+                <a href="">
+                    <img class="img_cours" src="images/css.png" alt="">
+                    <p class="theme">CSS3</p>
+                    <p class="time">5 heures</p>
+                </a>
+            </div>
+            <div class="cours resp">
+                <a href="">
+                    <img class="img_cours" src="images/flex.png" alt="">
+                    <p class="theme">Flexbox</p>
+                    <p class="time">5 heures</p>
+                </a>
+                <a href="">
+                    <img class="img_cours" src="images/responsive.jpg" alt="">
+                    <p class="theme">Responsive</p>
+                    <p class="time">5 heures</p>
+                </a>
+                <a href="">
+                    <img class="img_cours" src="images/animation.jpg" alt="">
+                    <p class="theme">Animation</p>
+                    <p class="time">5 heures</p>
+                </a>
+            </div>
         </div>
-        <div class="cours">
-            <a href="">
-                <img class="img_cours" src="images/flex.png" alt="">
-                <p class="theme">Flexbox</p>
-                <p class="time">5 heures</p>
-            </a>
-            <a href="">
-                <img class="img_cours" src="images/responsive.jpg" alt="">
-                <p class="theme">Responsive</p>
-                <p class="time">5 heures</p>
-            </a>
-            <a href="">
-                <img class="img_cours" src="images/animation.jpg" alt="">
-                <p class="theme">Animation</p>
-                <p class="time">5 heures</p>
-            </a>
+
+
+    </section>
+    <section class="back-color">
+        <div class="container abbonez">
+            <div class="with mar-r-50">
+                <h2 class="mar-b-10">Abonnez vous à la boite aux lettres</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In placeat fugiat, saepe non fuga quas labore
+                    commodi eveniet corrupti quam accusamus esse soluta exercitationem dignissimos enim beatae maxime debitis
+                    quibusdam.
+                </p>
+            </div>
+            <div class="with abbonez_droite mar-l-50">
+                <a href="mailto:" class="mail mar-b-10">Adresse email</a>
+                <a href="" class="btn">s'abonner</a>
+            </div>
         </div>
     </section>
-    <section class="abbonez">
-        <div class="abbonez_gauche">
-            <h1>Abonnez vous à la boite aux lettres</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quibusdam, aliquam quo eveniet ad,
-                 aspernatur odit ipsam, velit libero repellendus architecto nemo. Cum odio blanditiis laudantium
-                  accusantium at et dolor? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi vero
-                accusantium exercitationem, rem non nemo rerum velit sit dolorem dolore porro unde incidunt
-                enim ullam repellendus doloribus. Tempora, reiciendis deserunt.
-            </p>
-        </div>
-        <div class="abbonez_droite">
-            <a class="mail" href="mailto:">Adresse email</a>
-            <a href="" class="abonnement">s'abonner</a>
-        </div>
-    </section>
+
     <footer>
-        <a>
-             Dévellopé par letecode @2023
-        </a>
+        <div class="container">
+            <p>Dévelloppé par Letecode &copy;2023 </p>
+        </div>
     </footer>
+    <script src="style.js"></script>
 </body>
+
 </html>
