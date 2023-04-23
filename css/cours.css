@@ -7,19 +7,27 @@
  font-weight: 800;
  font-size: 20px;
 }
-.cours{
+.listes-cours{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap
+}
+
+.cours-item{
     display: flex;
     flex-direction: column;
-}
-.cours a img{
-    width: 85vw;
-}
-.cours a{
-    display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: flex-start;
-    margin: 15px 0;
-    text-decoration: none;
+    margin: 15px 5px;
+    width: 32%;
+}
+.cours-item p{
+text-align: center;
+}
+.img_cours{
+    width: 250px;
+    height: 250px;
 }
 .img_cours:hover{
     transform: scale(1.15);
@@ -68,6 +76,10 @@
 @media screen and (min-width:768px){
     .with{
         width: 50%;
+    }
+    .listes-cours{
+        flex-direction: row;
+        margin: 15px 0;
     }
     .resp{
         display: flex;
